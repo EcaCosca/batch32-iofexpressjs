@@ -17,22 +17,22 @@ We would like to modify our following code so that it displays a message when th
                             });
 
 
-##Exercise 2 (Help)##  
+## Exercise 2 (Help) ##  
 
 For this Exercise we will need a little software called Insomnia, it will allow us to test our URLs.
 
 We now want that when the user sends a PUT request to the home (http://localhost:3000/) it sends back an HTML file with :
 
-```<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Hello</title>
-</head>
-<body>
-  How are you?
-</body>
-</html>```
+                            <!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                            <meta charset="UTF-8">
+                            <title>Hello</title>
+                            </head>
+                            <body>
+                            How are you?
+                            </body>
+                            </html>
 
 
 ## Exercise 3 (Help) ## 
@@ -46,19 +46,18 @@ We now want that when the user sends a DELETE request to the home (http://localh
 
 Render this EJS code if the user accesses the URL ```/test-ejs``` and render this page with **my first title as** value of **myTitle** variable.
 
-```<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  <% if (myTitle) { %>
-    <h1><%= myTitle %></h1>
-  <% } %>
-</body>
-</html>
-```
+                                <!DOCTYPE html>
+                                <html lang="en">
+                                <head>
+                                <meta charset="UTF-8">
+                                <title>Document</title>
+                                </head>
+                                <body>
+                                <% if (myTitle) { %>
+                                    <h1><%= myTitle %></h1>
+                                <% } %>
+                                </body>
+                                </html>
 
 
 ## Exercise 5 (Help) ## 
