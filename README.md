@@ -1,20 +1,20 @@
-##💻 Implementation of ExpressJS##  
+## 💻 Implementation of ExpressJS ##  
 
 Create a folder ```exercises_express``` then go to this folder in your terminal and execute:
 
 ```npm init -y```
 
 
-##Exercise 1 (Help)## 
+## Exercise 1 (Help) ## 
 
 Install express into your directory with the ```npm install express --save``` command.
 We would like to modify our following code so that it displays a message when the person arrives on the page with their browseron (http://localhost:3000), make an ```app.js``` file with :
 
-```var express = require('express');
-var app = express();
-var server = app.listen(3000,function(){
-  console.log('Hello');
-});```
+                            var express = require('express');
+                            var app = express();
+                            var server = app.listen(3000,function(){
+                            console.log('Hello');
+                            });
 
 
 ##Exercise 2 (Help)##  
