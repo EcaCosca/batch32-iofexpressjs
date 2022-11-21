@@ -10,7 +10,7 @@ app.get('/postlist', (req, res) =>{
         let package = JSON.stringify(response.data)
         console.log(package)
         fileSystem.writeFile('posts.json', package, function (err) {
-            console.log(err);
+            if(err){console.log(err);}
             res.send("Success")
         })
     })
