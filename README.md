@@ -1,5 +1,7 @@
 # 💻 Implementation of ExpressJS #  
 
+# Exercise 0: Set up your enviroment (Help) #
+
 Create a folder ```exercises_express``` then go to this folder in your terminal and execute:
 
 ```npm init -y```
