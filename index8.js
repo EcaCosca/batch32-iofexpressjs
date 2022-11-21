@@ -15,7 +15,7 @@ app.get('/',(req,res,next) => {
 });
 
 app.get('/showGet', (req, res) => {
-    console.log(req.body);
+    console.log(req.query);
 })
 
 app.listen(port, () => console.log(`Server running http://localhost:${port}/`))
