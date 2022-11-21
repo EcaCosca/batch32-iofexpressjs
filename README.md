@@ -23,16 +23,16 @@ For this Exercise we will need a little software called Insomnia, it will allow 
 
 We now want that when the user sends a PUT request to the home (http://localhost:3000/) it sends back an HTML file with :
 
-                            <!DOCTYPE html>
-                            <html lang="en">
-                            <head>
-                            <meta charset="UTF-8">
-                            <title>Hello</title>
-                            </head>
-                            <body>
-                            How are you?
-                            </body>
-                            </html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Hello</title>
+        </head>
+        <body>
+            How are you?
+        </body>
+    </html>
 
 
 ## Exercise 3 (Help) ## 
@@ -46,18 +46,18 @@ We now want that when the user sends a DELETE request to the home (http://localh
 
 Render this EJS code if the user accesses the URL ```/test-ejs``` and render this page with **my first title as** value of **myTitle** variable.
 
-                                <!DOCTYPE html>
-                                <html lang="en">
-                                <head>
-                                <meta charset="UTF-8">
-                                <title>Document</title>
-                                </head>
-                                <body>
-                                <% if (myTitle) { %>
-                                    <h1><%= myTitle %></h1>
-                                <% } %>
-                                </body>
-                                </html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Document</title>
+        </head>
+        <body>
+            <% if (myTitle) { %>
+                <h1><%= myTitle %></h1>
+            <% } %>
+        </body>
+    </html>
 
 
 ## Exercise 5 (Help) ## 
@@ -90,23 +90,26 @@ Display in the console the result of the **GET**.
 
 ## Exercise 9 (Help) ##
 
-Create a route of the type /number/1 where the number will be a variable :id and will be displayed on the page. E.g. on the route /number/1337 we will see:
+Create a route of the type ```/number/1``` where the number will be a variable ```:id``` and will be displayed on the page.
 
-The number is 1337
-Exercise 10 (Help)
-Add Axios to your project et create a GET request on http://jsonplaceholder.typicode.com/posts/1 when the user visits http://localhost:3000/postlist.
+E.g. on the route ```/number/1337``` we will see:
+```The number is 1337```
 
-Exercise 11 (Help)
-Via the query in the previous exercise write the result of the query in a posts.json file.
 
-Exercise 12 (Help)
+## Exercise 10 (Help) ## 
+Add **Axios** to your project et create a **GET** request on http://jsonplaceholder.typicode.com/posts/1 when the user visits http://localhost:3000/postlist.
+
+## Exercise 11 (Help) ## 
+Via the query in the previous exercise write the result of the query in a ```posts.json``` file.
+
+## Exercise 12 (Help) ##
 Install the package pm2 globally and set up a web server with your current site and display the list of servers.
 
-Exercise 13 (Help)
+## Exercise 13 (Help) ##
 Create a server for your website with 1 cluster.
 
-Exercise 14 (Help)
+## Exercise 14 (Help) ##
 Set up a server that automatically restarts itself when files are modified.
 
-Exercise 15 (Help && Help)
+## Exercise 15 (Help && Help) ##
 Display all the logs of your server then display the RAM/CPU usage of your application.
